@@ -1,0 +1,23 @@
+{
+    "website" : {
+      "support": "https://discord.gg/4r7nRGcW4Q",
+      "domain": "https://dashboard.ignesious.tech/"
+    },
+    "config": {
+        "http": {
+          "port": 80
+        },
+        "https": {
+            "paths": {
+                "privkey": "/etc/letsencrypt/live/your-domain.com/privkey.pem",
+                "fullchain": "/etc/letsencrypt/live/your-domain.com/fullchain.pem",
+                "chain": "/etc/letsencrypt/live/your-domain.com/chain.pem"
+            },
+            "enabled": false,
+            "port": 443
+        },
+        "callback": "https://dashboard.ignesious.tech/callback",
+        "clientID": "",
+        "secret": ""
+    }
+  }
