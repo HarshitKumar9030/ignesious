@@ -1,11 +1,11 @@
 {
-  "token": "process.env.token",
+  "token": "",
   "prefix": ">",
-  "youtubeCookie": "AIzaSyAeyPjjm7rqygYlWvhtHe10BsDrCMMSYYA",
+  "youtubeCookie": "",
   "spotify_api": {
         "enabled": true, "_COMMENT_": "Set it to false, if you want to scrape, when on true you can get spotify playlists with 100+ Tracks",
-        "clientSecret": "ec26f2aa932e49ddab0e21d29339c396",
-        "clientId": "c1bfb79b75134d27903c83323ca8cf69"
+        "clientSecret": "",
+        "clientId": ""
   },
   "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)"
 }
